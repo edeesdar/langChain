@@ -19,7 +19,7 @@ if not langchain_api_key:
 
 os.environ["OPENAI_API_KEY"] = openai_api_key
 os.environ["LANGCHAIN_API_KEY"] = langchain_api_key
-os.environ["LANGCHAIN_TRACKING_V2"] = "true"
+# os.environ["LANGCHAIN_TRACKING_V2"] = "true"
 
 # Define prompt
 prompt = ChatPromptTemplate.from_messages(
